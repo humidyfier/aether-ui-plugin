@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "aether-ui",
+  "version": "1.0.0",
+  "description": "Visual pair-programming engine, AST surgery, and 6-region design studio for Hermes Agent",
+  "author": {
+    "name": "Aether UI Team"
+  },
+  "homepage": "https://github.com/nousresearch/hermes-agent",
+  "license": "ISC",
+  "keywords": [
+    "react",
+    "vite",
+    "ast",
+    "design-system",
+    "pair-programming",
+    "ui-studio"
+  ]
+}

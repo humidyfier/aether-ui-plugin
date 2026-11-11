@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.aether/
+.data/
+.test-*/
+*.sqlite*
+*.db
+*.log
+.DS_Store
+*.tmp

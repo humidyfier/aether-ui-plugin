@@ -1,0 +1,11 @@
+{
+  "name": "aether-ui",
+  "label": "Aether Studio",
+  "icon": "Layout",
+  "version": "1.0.0",
+  "tab": {
+    "path": "/aether-ui",
+    "position": "after:skills"
+  },
+  "entry": "dist/index.js"
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "aether-ui": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["--experimental-sqlite", "${PLUGIN_ROOT}/dist/src/mcp/aether-mcp-server.js"],
+      "env": {
+        "AETHER_STUDIO_PORT": "4173",
+        "NODE_PATH": "${PLUGIN_ROOT}/node_modules"
+      }
+    }
+  }
+}
+
